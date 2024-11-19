@@ -11,7 +11,7 @@ Bienvenido al Chat with the LZ Project, un chatbot potente basado en Streamlit q
 
 ## Arquitectura
 
-![chat-lz](docs/chat_lz.drawio.png)
+![chat-lz](docs/chat_lz.png)
 
 
 - **1. Entrada del Usuario**: Acepta consultas en lenguaje natural a través de la interfaz de Streamlit.
@@ -106,7 +106,7 @@ chat-with-lz/
 ```
 
 ### Bibliotecas y Herramientas Clave
-
+- **Conexion LZ via ODBC**
 - **Python 3.9+**
 - **Streamlit**: GUI interactiva para consultas y visualización de resultados.
 - **Groq:** Motor de comprensión del lenguaje natural para generar consultas SQL.
