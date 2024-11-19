@@ -10,18 +10,23 @@ Bienvenido al Chat with the LZ Project, un chatbot potente basado en Streamlit q
 - **Conocimiento del Esquema**: Recupera y muestra dinámicamente los esquemas de tablas para mejorar la precisión de las consultas.
 
 ## Arquitectura
-**1. Entrada del Usuario**: Acepta consultas en lenguaje natural a través de la interfaz de Streamlit.
-**2. Recuperación del Esquema**: Obtiene dinámicamente detalles de los esquemas de tablas para consultas basadas en contexto.
-**3. Generación de Consultas**: Groq interpreta la entrada del usuario y genera la consulta SQL correspondiente.
-**4. Ejecución en la Base de Datos**: Las consultas se ejecutan en la base de datos Impala mediante una clase auxiliar personalizada.
-**5. Visualización de Resultados**: Los resultados se formatean como un DataFrame y se muestran en la GUI.
+
+![chat-lz](docs/chat_lz.drawio.png)
+
+
+- **1. Entrada del Usuario**: Acepta consultas en lenguaje natural a través de la interfaz de Streamlit.
+- **2. Recuperación del Esquema**: Obtiene dinámicamente detalles de los esquemas de tablas para consultas basadas en contexto.
+- **3. Generación de Consultas**: Groq interpreta la entrada del usuario y genera la consulta SQL correspondiente.
+- **4. Ejecución en la Base de Datos**: Las consultas se ejecutan en la base de datos Impala mediante una clase auxiliar personalizada.
+- **5. Visualización de Resultados**: Los resultados se formatean como un DataFrame y se muestran en la GUI.
+
 
 # Instalación
 
 ### Clonar el proyecto
 
 ```
-git clone https://github.com/lriveraBanco/Bintec
+https://github.com/lriveraBanco/chat-with-lz.git
 ```
 
 ### Configuración el proyecto
@@ -29,7 +34,7 @@ git clone https://github.com/lriveraBanco/Bintec
 Seleccionar el proyecto : Moverse al directorio principal
 
 ```
-cd Bintec-2024
+cd chat-with-lz
 ```
 
 ### Crear entorno virtual
@@ -111,7 +116,9 @@ chat-with-lz/
 
 ### Referencias
 https://console.groq.com/
+<br>
 https://groq.com/
+<br>
 https://github.com/groq/groq-api-cookbook
 
 ## Contribuciones
